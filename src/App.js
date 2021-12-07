@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Game from './components/Game';
+
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button className="testB">
+        <figure className="figureB">
+          <img className="imageB" src="https://raw.githubusercontent.com/ding-09/memory-game/5458492d491fb84d2cd0f75c6c8ef88070238b32/src/images/curry.jpg" alt="lost"/>
+          <figcaption className="captionB">Lol</figcaption>
+        </figure>
+
+      </button>
+      
+      <Game />
     </div>
   );
 }

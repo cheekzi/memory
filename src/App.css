@@ -1,3 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Hind', sans-serif;
+}
+
+
+html {
+  background: rgb(4, 4, 4);
+  background: linear-gradient(
+    0deg,
+    rgba(4, 4, 4, 0.8295693277310925) 18%,
+    rgba(8, 7, 7, 1) 100%
+  );
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  overflow: auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+.score-board {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  font-size: 20px;
+}
+
+.cardContainer {
+  width: 100%;
+  display: flex;
+  padding: 15px 20px;
+  margin-top: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 270px));
+  justify-content: space-around;
+  column-gap: 10px;
+  row-gap: 20px;
+  border-style: dotted;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 20%;
+  height: auto;
+  text-align: center;
+  color: black;
+  outline: none;
+  cursor: pointer;
+  font-size: 19px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  border-style:none;
+}
+
+figcaption {
+  margin-top: 15px;
+}
+
+.testB {
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  background:chocolate;
+  border-radius: 60px;
+  outline: none;
+  border-style: none;
+}
+
+.imageB {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  padding: 40px;
+  border-radius: 100px;
+}
+
+.captionB {
+  margin-bottom: 5px;
+}
+
+
 .App {
   text-align: center;
 }

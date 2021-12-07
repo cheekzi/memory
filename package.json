@@ -1,6 +1,6 @@
 {
   "name": "memory",
-  "homepage": "https://cheekzi.github.io/memory/index.html",
+  "homepage": "https://cheekzi.github.io/memory",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
